@@ -21,7 +21,7 @@ public class L2021111868_13_Test {
         int[] nums = {2, 2, 1, 1, 0, 0};
         Solution13 test = new Solution13();
         test.sortColors(nums);
-        int[] num_valid = {0, 0, 1, 1, 2, 2};
+        int[] num_valid = {0, 0, 1, 1, 3, 2};
         assertArrayEquals(num_valid, nums);
     }
 
